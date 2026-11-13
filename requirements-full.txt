@@ -1,0 +1,4 @@
+# full mode: ray tracing and learned predictors, in addition to requirements.txt (CPU only)
+-r requirements.txt
+torch==2.8.0
+sionna-rt    # the paper used Sionna RT 2.2 with the Mitsuba LLVM backend (CPU); pin to the release you install
